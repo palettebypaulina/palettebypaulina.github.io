@@ -17,7 +17,7 @@ html, body{
   color: #F2F0F1;
   background-color: #AF2550;
 }
-div.container{
+div.container1{
     max-width: 1000px;
     margin: auto;
 }
@@ -25,7 +25,7 @@ div.container{
   max-width: 200px;
 }
 
-.jumbotron h2{
+.myjumbo h2{
   color: #2e0702;
 }
 
@@ -114,7 +114,7 @@ padding-right: 20px;
 .padding{
   padding-bottom: 2rem;
 }
-.jumbotron{
+.myjumbo{
   background-color: #EFC4B9;
 }
 .welcome{
@@ -171,7 +171,7 @@ padding-top: 2rem;
     text-decoration: none !important;
 }
 .amazon a{
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .fa-facebook{
   color: #3b599b;
@@ -245,7 +245,7 @@ hr.light-100{
     padding: 2rem;
     }
 .amazon a{
-      font-size:3em;
+      font-size:2.5em;
     }
     .carousel-caption h1{
         font-size: 350%;
@@ -284,6 +284,9 @@ hr.light-100{
     .amazon a{
       font-size:2em;
     }
+    div.container1{
+      max-width: 100%;
+      margin: 0;
 }
 @media (max-width: 768px) {
       .carousel-caption{
