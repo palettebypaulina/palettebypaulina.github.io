@@ -171,7 +171,7 @@ padding-top: 2rem;
     text-decoration: none !important;
 }
 .amazon a{
-  font-size: 2.5em;
+  font-size: 3em;
 }
 .fa-facebook{
   color: #3b599b;
@@ -245,7 +245,7 @@ hr.light-100{
     padding: 2rem;
     }
 .amazon a{
-      font-size:4em;
+      font-size:3em;
     }
     .carousel-caption h1{
         font-size: 350%;
@@ -281,6 +281,9 @@ hr.light-100{
   .carousel-caption2 h1{
       font-size: 180%;
     }
+    .amazon a{
+      font-size:2em;
+    }
 }
 @media (max-width: 768px) {
       .carousel-caption{
@@ -310,6 +313,12 @@ hr.light-100{
     .carousel-caption2 h1{
         font-size: 150%;
       }
+      .amazon a{
+        font-size:1.5em;
+      }
+      .lead{
+        font-size: 1em;
+      }
 }
 @media (max-width: 576px) {
      .carousel-caption{
@@ -328,6 +337,9 @@ hr.light-100{
       }
     .carousel-caption2 h1{
         font-size: 100%;
+      }
+      .amazon a{
+        font-size:1.2em;
       }
       
 }
