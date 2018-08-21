@@ -56,7 +56,7 @@ padding-right: 20px;
   color: #F2F0F1;
 }
 .nav-toggler{
-  color:#F2F0F1;
+  color: #F2F0F1;
 }
 .nav-link{
   font-size: 1.1em !important;
@@ -83,6 +83,13 @@ padding-right: 20px;
 
 .padding2{
   padding: 2em;
+}
+
+.boxy{
+box-shadow: 0px 10px 9px -7px #C1BFC1;
+}
+.boxy2{
+  box-shadow: 0px 0px 6px #A0A0A0;
 }
 
 #fondo1{
@@ -112,14 +119,7 @@ padding-right: 20px;
 
 }
 
-.carousel, .slide,
-.carousel .carousel-inner,
-.carousel .carousel-item,
-.carousel .carousel-item img,
-.carousel .carousel-control {
-  border-radius: 12;
-  overflow: hidden;
-}
+
 
 .carousel-inner img{
   width:100%;
