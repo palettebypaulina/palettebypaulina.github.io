@@ -20,7 +20,7 @@ html, body{
 div.container1{
     max-width: 1000px;
     margin: auto;
-    background-color: #EAE4EA;
+    background-color: #F2F0F1;
 }
 #logo{
   max-width: 200px;
@@ -208,6 +208,10 @@ padding-top: 2rem;
   background-image: none;
   border-color: #354242;
 }
+.btn-dark:hover{
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+}
 .social a{
   font-size: 3em;
   padding: 1rem;
@@ -241,7 +245,7 @@ padding-top: 2rem;
   color: #F2F0F1 ;
 }
 .fa-amazon{
-color: #CC174A;
+color: #F2F0F1;
 }
 .fa-facebook:hover{
 color: #B78092;
@@ -423,7 +427,7 @@ hr.light-100{
       
       }
       #fondo2{
-        background: url(img/fondo02-sized768w-660h.jpg);
+        background: url(img/fondo-02-768w-660h-03.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
