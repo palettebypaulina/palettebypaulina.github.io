@@ -15,12 +15,12 @@ html, body{
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #2e0702;
-  background-color: #AF2550;
+  background-color: #CA1F4D;
 }
 div.container1{
     max-width: 1000px;
     margin: auto;
-    background-color: #F2F0F1;
+    background-color: #Ffff;
 }
 #logo{
   max-width: 200px;
@@ -31,7 +31,7 @@ div.container1{
 }
 
 .card{
-background-color: #F2F0F1;
+background-color: #Ffff;
 margin-bottom: 45px;
 border: 0px;
 }
