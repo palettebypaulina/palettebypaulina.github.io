@@ -342,8 +342,8 @@ hr.light-100{
 @media (max-width: 850px) {
 #fondo1{
   background: url(img/fondo-01-850-730.jpg);
-  width: 850pt;
-  height: 730pt;
+  width: 850px;
+  height: 730px;
 
 }
 #fondo2{
