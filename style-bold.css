@@ -470,7 +470,7 @@ hr.light-100{
         height: auto;
       }
       #fondo1{
-        background: url(img/fondo-576-568.jpg);
+        background: url(img/fondo01-576-568.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -487,7 +487,7 @@ hr.light-100{
         padding-top: 98.61%;
       }
       #fondo3{
-        background: url(img/fondo-3-size576-568.jpg);
+        background: url(img/fondo-576-568.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
