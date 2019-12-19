@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@font-face {
+  font-family: Modern20;
+  src: url(/styles/fonts/mod20-webfont.woff);
+  }
+  
+  @font-face {
+  font-family: Modern202;
+  src: url(/styles/fonts/mod20-webfont.woff2);
+  }
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #2e0702;
+  background-color: #C12354;
+}
+div.container1{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #Ffff;
+}
+#logo{
+  max-width: 200px;
+}
+
+.myjumbo h2{
+  color: #2e0702;
+}
+
+.card{
+background-color: #Ffff;
+margin-bottom: 45px;
+border: 0px;
+}
+
+.card-title{
+  color: #2e0702;
+}
+.card-text{
+
+  color: #2e0702;
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+padding-right: 20px;
+}
+.navbar-brand{
+  font-family: 'Modern20';
+}
+.navbar-toggler-icon{
+  color: #F2F0F1;
+}
+.nav-toggler{
+  color: #F2F0F1;
+}
+.nav-link{
+  font-size: 1.1em !important;
+  color: #F2F0F1 !important;
+}
+.nav-link:hover{
+  color: #B78092 !important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #CC174A !important;
+}
+.bg-light {
+ background-color: #2e0702 !important;
+}
+.hc2_bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  border-top: 7px solid #0477BF;
+}
+
+.padding2{
+  padding: 2em;
+}
+
+.boxy{
+box-shadow: 0px 10px 9px -7px #C1BFC1;
+}
+.boxy2{
+  box-shadow: 0px 0px 6px #A0A0A0;
+}
+
+#fondo1{
+  background: url(img/fondo1-sized1000w607h.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 60.7%;
+
+}
+#fondo2{
+  background: url(img/fondo2-sized1000w606h.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 60.6%;
+}
+#fondo3{
+  background: url(img/fondo03-sized1000w606h.jpg);
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 60.6%;
+
+}
+
+
+
+.carousel-inner img{
+  width:100%;
+  height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  font-weight: lighter;
+}
+.carousel-caption h1{
+  font-size: 400%;
+  text-shadow: 1px 1px 15px #354242;
+}
+
+.carousel-caption h3{
+  font-size: 300%;
+  color: #354242;
+  font-weight: 500;
+  transform: translateY(-95%);
+}
+.carousel-caption2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    font-weight: lighter;
+    
+  }
+.carousel-caption2 h1{
+    color: #fff;
+    font-size: 300%;
+    text-shadow: 1px 1px 10px #354242;
+  }
+
+
+.padding{
+  padding-bottom: 2rem;
+}
+.myjumbo{
+  background-color: #EFC4B9;
+}
+.welcome{
+width: 75%;
+margin: 0 auto;
+padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #2e0702;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+
+.img-center{
+    width:100%;
+}
+.center-article{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form{
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary{
+  background-color: #0170C0;
+  border: 1px solid #0170C0;
+}
+.btn-primary:hover{
+  background-color: rgb(3, 51, 85);
+  border: 1px solid rgb(3, 51, 85);
+}
+.btn-outline-secondary {
+  color: #316065;
+  background-color: transparent;
+  background-image: none;
+  border-color: #354242;
+}
+.btn-outline-secondary:hover {
+  color: #ffff;
+  background-color: #354242;
+  background-image: none;
+  border-color: #354242;
+}
+.btn-dark:hover{
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+}
+.social a{
+  font-size: 3em;
+  padding: 1rem;
+}
+.social a:hover{
+    text-decoration: none !important;
+}
+.amazon a{
+  font-size: 2.5em;
+
+}
+.amazon img{
+  width: 300px;
+  height: auto;
+}
+
+.amazon img:hover{
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.fa-facebook{
+  color: #F2F0F1;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-youtube{
+  color: #bb0000 ;
+}
+.fa-instagram{
+  color: #F2F0F1 ;
+}
+.fa-amazon{
+color: #F2F0F1;
+}
+.fa-facebook:hover{
+color: #B78092;
+}
+.fa-twitter:hover{
+color: #B78092;  
+}
+.fa-instagram:hover{
+color: #B78092;
+}
+.fa-youtube:hover{
+color: #B78092;
+}
+.fa-amazon:hover{
+color: #B78092;
+}
+
+footer{
+  background-color: #2e0702;
+  color: #D3D3D3;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #F2F0F1;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #8BBBD9;
+}
+footer h7{
+font-size: .7em;
+}
+hr.light-100{
+  border-top: 1px solid #F2F0F1;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.header {
+    color: #316065;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #316065;
+}
+/*---Media Queries --*/
+@media (max-width: 999px) {
+.social a{
+    font-size: 4em;
+    padding: 2rem;
+    }
+.amazon a{
+      font-size:2.5em;
+    }
+    .carousel-caption h1{
+        font-size: 350%;
+      }
+      .carousel-caption2 h1{
+        font-size: 230%;
+      }
+  }
+  @media (max-width: 950px) {
+    .carousel-caption{
+      top: 45%;
+      font-weight: lighter;
+    }
+    .carousel-caption h1{
+      font-size: 320%;
+    }
+    .carousel-caption h3{
+      font-size: 140%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+    } 
+    .display-4{
+        font-size: 180%;
+    }
+    .social a{
+      font-size: 2.5em;
+      padding: 1.2rem;
+    }
+    .carousel-caption2{
+      top: 40%;
+      font-weight: lighter;       
+    }
+  .carousel-caption2 h1{
+      font-size: 180%;
+    }
+    .amazon a{
+      font-size:2em;
+    }
+    div.container1{
+      max-width: 100%;
+      margin: 0;
+    }
+  .amazon img{
+  width: 200px;
+  height: auto;
+  }
+}
+@media (max-width: 850px) {
+#fondo1{
+  background: url(img/fondo-01-850-730.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 85.88%;
+
+}
+#fondo2{
+  background: url(img/fondo02-850-730.jpg);
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 85.88%;
+}
+#fondo3{
+  background: url(img/fondo-45-850-730.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 85.88%;
+}
+}
+@media (max-width: 768px) {
+      .carousel-caption{
+        top: 45%;
+        font-weight: lighter;
+      }
+   
+      .carousel-caption h1{
+        font-size: 250%;
+      }
+      .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+      } 
+      .display-4{
+          font-size: 200%;
+      }
+      .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+      }
+      .carousel-caption2{
+        top: 40%;
+        font-weight: lighter;       
+      }
+    .carousel-caption2 h1{
+        font-size: 150%;
+      }
+      .amazon a{
+        font-size:1.5em;
+      }
+      .lead{
+        font-size: 1em;
+      }
+      .amazon img{
+        width: 160px;
+        height: auto;
+      }
+      #fondo1{
+        background: url(img/fondo01-siz-768-660.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 85.93%;
+      
+      }
+      #fondo2{
+        background: url(img/fondo-02-768w-660h-03.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 85.93%;
+      }
+      #fondo3{
+        background: url(img/fondo-45-768w-660h.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 85.93%;
+      
+      }
+}
+@media (max-width: 576px) {
+     .carousel-caption{
+        top: 40%;
+        font-weight: lighter;
+      }
+      .carousel-caption h1{
+        font-size: 150%;
+      }
+      .carousel-caption h3{
+        font-size: 110%;
+      }  
+      .carousel-caption2{
+        top: 40%;
+        font-weight: lighter;       
+      }
+    .carousel-caption2 h1{
+        font-size: 100%;
+      }
+      .amazon a{
+        font-size:1.2em;
+      }
+      .amazon img{
+        width: 140px;
+        height: auto;
+      }
+      #fondo1{
+        background: url(img/fondo01-576-568.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 98.61%;
+      
+      }
+      #fondo2{
+        background: url(img/fondo02-576-568.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 98.61%;
+      }
+      #fondo3{
+        background: url(img/fondo-576-568.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 98.61%;
+      
+      }
+      
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/choco33.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 50%;
+  background-size: cover;
+  background-position: left le;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

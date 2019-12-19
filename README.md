@@ -1,1 +1,0 @@
-# palettebypaulina.github.io
